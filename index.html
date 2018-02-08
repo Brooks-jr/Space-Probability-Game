@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Browser Tab's Title & Icon -->
+    <title>Space Probability Game</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet" type="text/css">
+    
+    <!-- icons -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    
+    <!-- css -->
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="wrapper clearfix">
+
+<!-- ============================================
+-                  P L A Y E R S
+============================================= -->
+        <!-- PLAYER 1 PANEL (LEFT)-->
+        <div class="player-0-panel active">
+            <div class="player-name" id="name-0">Player 1</div>
+            <div class="player-score" id="score-0"></div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-0"></div>
+            </div>
+        </div>
+
+        <!-- PLAYER 2 PANEL (RIGHT)-->
+        <div class="player-1-panel">
+            <div class="player-name" id="name-1">Player 2</div>
+            <div class="player-score" id="score-1"></div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-1"></div>
+            </div>
+        </div>
+
+<!-- ============================================
+-                B U T T O N S
+============================================= -->
+
+         <!-- new game -->
+        <button class="btn-new">
+            <i class="ion-ios-plus-outline"></i>
+            New game
+        </button>
+
+        <!-- roll dice -->
+        <button class="btn-roll">
+            <i class="ion-ios-loop"></i>
+            Roll dice
+        </button>
+
+        <!-- hold -->
+        <button class="btn-hold">
+            <i class="ion-ios-download-outline"></i>
+            Hold
+        </button>
+
+        <input type="text" name="winCondition" class="winCondition" placeholder="Play To?">
+        <img src="img/dice-1.png" alt="Dice" id="dice-1" class="dice">
+        <img src="img/dice-1.png" alt="Dice" id="dice-2" class="dice">
+        
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

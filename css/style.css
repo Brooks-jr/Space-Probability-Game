@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url(img/bg.gif);
+    background-image: url(../img/bg.gif);
     background-size: cover;
     background-position: center;
     
@@ -215,7 +215,7 @@ i {
 }
 
 .winner .player-current-box {
-    background-image: url(img/rocket.gif);
+    background-image: url(../img/rocket.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

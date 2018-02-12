@@ -1,5 +1,8 @@
 // =============================================
 // -          PROBABILITY DICE GAME
+
+// - Feb + 2018
+// - jeff brooks *github.com/Brooks-jr*
 // =============================================
 
 var gameInSession, scores, roundScore, activePlayer;
